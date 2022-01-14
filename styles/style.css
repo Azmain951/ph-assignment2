@@ -32,6 +32,10 @@ main{
     padding: 50px 5%;
 }
 
+.nav-header:hover{
+    color: #E02C6D;
+}
+
 .menu{
     display: flex;
 }
@@ -44,6 +48,11 @@ main{
 .menu-item a{
     text-decoration: none;
     color: #3A3A3A; 
+}
+
+.menu-item a:hover{
+    color: #E02C6D;
+    text-decoration: underline;
 }
 
 /* Header Section Styles */
@@ -80,10 +89,20 @@ main{
     border-radius: 41px;
 }
 
+.link-button:hover{
+    background-image: linear-gradient(#ff629c,#ff0460);
+    padding: 12px 28px;
+}
+
 .header-image img{
     width: 440px;
     height: 414px;
     padding-left: 15%;
+    transition: transform 1s ease-in-out 0.1s;
+}
+
+.header-image img:hover{
+    transform: scale(1.1);
 }
 
 /* Company Section */
@@ -138,11 +157,16 @@ main{
     border-radius: 5px;
 }
 
+.collection:hover h2{
+    color: #E02C6D;
+}
+
 .collection img{
     width: 300px;
     height: 256px;
     border-radius: 5px;
 }
+
 
 .product-name, .product-price{
     margin: 12px 0;
@@ -211,4 +235,19 @@ footer .social-icon{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
+}
+
+@media only screen and (max-width:668px) {
+    .header-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-details{
+        order: 2;
+    }
+    .header-image{
+        width: 50%;
+        order: 1;
+    }
 }
