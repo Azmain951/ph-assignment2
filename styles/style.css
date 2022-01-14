@@ -10,7 +10,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* Common Styles */
-body{
+body,header{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
     margin: 0;
@@ -22,6 +22,28 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: #FFFFFF;
+}
+
+/* Navigation Styles */
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5%;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item{
+    list-style: none;
+    margin-left: 34px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #3A3A3A; 
 }
 
 /* Header Section Styles */
