@@ -85,6 +85,7 @@ main{
 /* Top Collection Section */
 .container{
     width: 80%;
+    margin-bottom: 100px;
 }
 
 .container a{
@@ -94,8 +95,13 @@ main{
     right: 11%;
 }
 
+.popular-collection{
+    margin-bottom: 50px;
+}
+
 .collection-header{
     text-align: center;
+    font-weight: 600;
 }
 
 .collections{
