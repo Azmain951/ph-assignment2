@@ -325,6 +325,10 @@ footer .social-icon{
         width: 300px;
     }
 
+    .collection img{
+        width: 100%;
+    }
+
     .creative-section{
         flex-direction: column;
     }
@@ -364,4 +368,9 @@ footer .social-icon{
         grid-template-columns: repeat(2, 1fr);
         
     }
+
+    .collection img{
+        width: 100%;
+    }
+
 }
