@@ -205,6 +205,27 @@ main{
     font-weight: 700;
 }
 
+/* Random Section */
+.creative-section{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.creative-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.creative-info h2{
+    margin-top: 0;
+}
+
+.creative-info p{
+    margin-bottom: 32px;
+}
+
 /* footer style */
 footer{
     background-color: #0A0826;
